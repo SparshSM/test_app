@@ -1,0 +1,18 @@
+<!-- [formGroup]="signupform" (ngSubmit)="onSubmit()" -->
+<!-- <form  id="signupform">
+    <label for="name">Name: </label>
+    <input id="name" type="text" formControlName="name"> <br> <br>
+    <label for="username">Userame: </label>
+    <input id="username" type="text" formControlName="username"> <br> <br>
+    <label for="pass">Password: </label>
+    <input id="pass" type="text" formControlName="pass"> <br> <br> -->
+    <!-- <button type="submit" [disabled]="!signupform.valid">Submit</button> -->
+<!-- </form> -->
+<div>
+    <h2>crud tests</h2>
+   <ul id="userdata" *ngFor="let users of tusers">
+       <!-- <li>{{users.id}}</li> -->
+       <li>{{users.name}}</li>
+       <!-- <li>{{users["name"]}}</li> -->
+    </ul>
+  </div>
